@@ -11,8 +11,8 @@
 
     --border-radius: 0.25em;
 
-    --display-font-size: 2.2vw;
-    --btn-font-size: 1.25vw;
+    --display-font-size: 2.2rem;
+    --btn-font-size: 1.25rem;
 }
 
 * {
@@ -35,7 +35,7 @@ section {
 
 .container {
     position: absolute;
-    width: 20%;
+    width: 20rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -103,6 +103,8 @@ button {
 @media (orientation: portrait) {
     .container {
         width: 75%;
+        --display-font-size: 2.2vw;
+        --btn-font-size: 1.25vw;
     }
 
     .display {
